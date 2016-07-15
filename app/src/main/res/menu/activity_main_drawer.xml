@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Open new subreddit"
+        android:id="@+id/nav_open_sub"
+        android:icon="@drawable/ic_nav_open"/>
+
+    <item android:title="Edit my subreddits"
+        android:id="@+id/nav_edit_subreddits"
+        android:icon="@drawable/ic_nav_edit"/>
+
+    <group android:id="@+id/subreddit_list_group">
+        <item
+            android:title="My subreddits"
+            android:enabled="false"/>
+    </group>
+
+</menu>
